@@ -1,6 +1,6 @@
 BEGIN {
 recv=0;
-gotime = 1;
+gotime = 0;
 time = 0;
 packet_size = $8;
 time_interval=0.01;
