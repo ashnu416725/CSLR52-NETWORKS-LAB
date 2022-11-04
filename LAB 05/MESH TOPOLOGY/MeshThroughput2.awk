@@ -20,7 +20,7 @@ time_interval=0.01;
   recv=0;
   }
 
-  if (( event == "r") && ( pktType == "tcp" ))
+  if (( event == "r") && ( pktType == "tcp" || pktTyoe=="cbr" ))
   {
      recv++;
   }
